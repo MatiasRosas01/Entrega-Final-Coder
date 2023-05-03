@@ -1,0 +1,36 @@
+body {
+  //FOOTER
+  footer {
+    display: flex;
+    align-items: end;
+    .itemfooter {
+      display: inline-block;
+      .textoFooter {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: normal;
+        transform: rotate(-90deg);
+        margin-bottom: 51px;
+      }
+      audio {
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .redes {
+      margin-left: -26px;
+      i {
+        font-size: 2.5rem;
+      }
+    }
+
+    audio {
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
